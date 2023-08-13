@@ -1,0 +1,13 @@
+.Left{
+    background-color: #871f42;
+    color: #fff;
+    padding: 25% 3vw;
+    width: 45%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+    border-radius: 10%;
+    font-size: 1.7vw;
+}
+.Left img{
+    width: 10vh;
+}

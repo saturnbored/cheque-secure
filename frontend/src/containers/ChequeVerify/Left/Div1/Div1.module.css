@@ -1,0 +1,63 @@
+.Row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5vh;
+}
+.PTitle {
+  margin: 0;
+  font-size: 1.3vw;
+}
+.PDetail {
+  color: rgba(100, 100, 100);
+  font-size: 0.9vw;
+  margin: 0;
+}
+.Row span {
+  background-color: transparent;
+  border: none;
+}
+.Checkbox {
+  box-shadow: none !important;
+}
+.Checkbox:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.Checkbox:checked {
+  border-color: #871f42;
+  background-color: #871f42;
+}
+.BtnGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+.NextBtn {
+  background-color: #871f42;
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  padding: 1.5vh 2vw;
+  border-radius: 25px;
+  width: 10vw;
+}
+.NextBtn:hover {
+  background-color: #ffffff;
+  border: 2px solid #871f42;
+  color: #871f42;
+}
+.DeclineBtn {
+  background-color: #ffffff;
+  border: 2px solid #871f42;
+  color: #871f42;
+  outline: none;
+  padding: 1.5vh 2vw;
+  border-radius: 25px;
+  width: 10vw;
+}
+.DeclineBtn:hover {
+  background-color: #871f42;
+  color: #ffffff;
+}
+.Error{
+  color: red;
+}

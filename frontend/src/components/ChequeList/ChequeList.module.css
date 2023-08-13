@@ -1,0 +1,46 @@
+.Button{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+    background-color: #871f42;
+    color: white;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 2.2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.ButtonInactive{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: #871f42;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 2.2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.ButtonInactive:hover{
+    opacity: 0.8;
+}
+
+.Button:hover{
+    opacity: 0.9
+}
+
+.List{
+    flex: 2;
+}
+
+.Filters{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}

@@ -1,0 +1,27 @@
+.Parent{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.Options{
+    flex: 1;
+    padding-top: 10vh;
+}
+
+.ButtonDeposit{
+    width: 8vw;
+    border-radius: 10px;
+    background-color: #871f42;
+    color: white;
+    text-align: center;
+    line-height: 100%;
+    font-size: 2.2vh;
+    margin-left: 1vw;
+    padding: 2vh 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.ButtonDeposit:hover{
+    opacity: 0.9;
+}

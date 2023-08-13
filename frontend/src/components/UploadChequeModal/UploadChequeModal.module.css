@@ -1,0 +1,14 @@
+.ModalHeader{
+    background-color: #871f42;
+    color: white;
+}
+
+.BootstrapButton{
+    background-color: #871f42 !important;
+    border: none !important;
+}
+
+.Error{
+    color: #dc3546;
+    margin-top: 0.5vh;
+}

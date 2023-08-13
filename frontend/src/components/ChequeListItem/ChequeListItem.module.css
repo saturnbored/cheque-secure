@@ -1,0 +1,15 @@
+.Parent{
+    height: 10vh;
+    width: 35vw;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2vh;
+}
+
+.Id{
+    flex: 2;
+}

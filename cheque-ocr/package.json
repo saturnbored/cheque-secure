@@ -1,0 +1,37 @@
+{
+  "name": "cheque-ocr",
+  "version": "1.0.0",
+  "description": "Optical Character Recognition for cheques using the MICR Code standard.",
+  "keywords": [
+    "ocr",
+    "cheque",
+    "check",
+    "micr"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --timeout 10000"
+  },
+  "files": [
+    "index.js",
+    "micr.traineddata"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "named-regexp": "^0.1.1",
+    "tesseract.js": "^1.0.10",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "repository": "wealthsimple/cheque-ocr",
+  "engines": {
+    "node": ">= 6.8.0"
+  }
+}

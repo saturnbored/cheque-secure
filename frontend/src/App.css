@@ -1,0 +1,23 @@
+.App {}
+
+.btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td {
+    padding: 1vh;
+}
+
+.cheque-image{
+    max-width: 50vw;
+}

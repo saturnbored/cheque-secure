@@ -1,0 +1,101 @@
+.BtnGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+.NextBtn {
+  background-color: #871f42;
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  padding: 1.5vh 2vw;
+  border-radius: 25px;
+  width: 10vw;
+}
+.Row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5vh;
+}
+.Row span {
+  background-color: transparent;
+  border: none;
+}
+.PTitle {
+  margin: 0;
+  font-size: 1.3vw;
+}
+.PDetail {
+  color: rgba(100, 100, 100);
+  font-size: 0.9vw;
+  margin: 0;
+}
+.Checkbox {
+  box-shadow: none !important;
+}
+.Checkbox:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.Checkbox:checked {
+  border-color: #871f42;
+  background-color: #871f42;
+}
+.NextBtn:hover {
+  background-color: #ffffff;
+  border: 2px solid #871f42;
+  color: #871f42;
+}
+.DeclineBtn {
+  background-color: #ffffff;
+  border: 2px solid #871f42;
+  color: #871f42;
+  outline: none;
+  padding: 1.5vh 2vw;
+  border-radius: 25px;
+  width: 10vw;
+}
+.DeclineBtn:hover {
+  background-color: #871f42;
+  color: #ffffff;
+}
+.Input{
+    background-color: rgb(240, 240, 240);
+    border-radius: 0;
+    border: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.Input::placeholder{
+    color: rgb(150, 150, 150);
+}
+.Input:focus{
+    border: none;
+    box-shadow: none;
+    background-color: rgb(240, 240, 240);
+    border-bottom: 3px solid #871f42;
+}
+.VerifyAccount{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.VerifyBtn{
+    background-color: #871f42;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    margin-left: 2vw;
+    padding: 1vh 2vw;
+    /* width: 10vw; */
+}
+.P2{
+    cursor: pointer;
+    color:rgb(120, 120, 120);
+}
+.P2:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.Error{
+  color: red;
+}

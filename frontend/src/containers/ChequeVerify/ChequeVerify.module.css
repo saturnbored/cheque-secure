@@ -1,0 +1,16 @@
+.Parent{
+    display: flex;
+}
+.Left{
+    flex: 1;
+}
+.Right{
+    flex: 1;
+}
+.P{
+    text-align: right;
+}
+.ChequeVerify{
+    margin: 10vh auto;
+    width: 85vw;
+}
